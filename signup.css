@@ -8,3 +8,30 @@ html, body{
     height : 100%;
     width : 100%;
 }
+
+.box{
+    height :100%;
+    width :100%;
+    display : flex;
+    justify-content: center;
+    margin-top:200px;
+}
+
+.box1 h1 {
+    font-size: 5rem;
+    font-family: 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace;
+    color: #3a86ff;
+    background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 50%, #3a86ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(58, 134, 255, 0.2);
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+
+.box1 h1:hover {
+    transform: scale(1.05) rotate(-2deg);
+}
